@@ -1,0 +1,102 @@
+.carousel{
+	margin-top: 10px;	
+}
+
+.carousel-image{
+	border-radius: 25px;
+	border: 5px solid #378287;
+}
+
+.card-img-top{
+	padding: 10px;
+	height: 15.625rem;
+}
+
+.card-title{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.card-text{
+	font-size: 1.1rem;
+}
+
+.navbar{
+	font-size: 1.1rem;
+}
+
+body{	
+	background-color: #222b24;
+	word-spacing: 3px;
+}
+
+#short-note{
+	color: white;
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: Courier New, Courier, Monospace;
+	margin: 10px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+::selection{
+	background-color: #ede280;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+@media (max-width:992px) and (min-width:768px){
+	html{
+		font-size: 90%
+	}
+	
+	.card{
+		margin-left: auto;
+		margin-right: auto;
+		width: 34.7rem;
+		margin-top: 30px;
+	}
+	
+	.col{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width:768px) and (min-width:576px){
+	html{
+		font-size: 80%
+	}
+	
+	.card{
+		margin-left: auto;
+		margin-right: auto;
+		width: 31rem;
+		margin-top: 30px;
+	}
+	
+	.col{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width:576px){
+	html{
+		font-size: 75%
+	}	
+	
+	.card{
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		margin-top: 30px;
+	}
+	
+	.col{
+		margin-bottom: 30px;
+	}
+}

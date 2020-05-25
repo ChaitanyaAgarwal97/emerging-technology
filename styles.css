@@ -1,0 +1,62 @@
+﻿.info-content, table tr, .info-list, div > p,table th {
+  font-size: 1.375rem;
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+body {
+  background-color: #222b24;
+  word-spacing: 3px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.info-container {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-heading {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.info-content {
+  color: black;
+  margin-top: 30px;
+}
+#quotes {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: magenta;
+}
+.embedded-video {
+  margin: 20px;
+}
+table {
+  background-color: #61b8b4;
+  color: #222b24;
+}
+::selection {
+  background-color: #ede280;
+}
+.navbar {
+  font-size: 1.1rem;
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 576px) {
+  html {
+    font-size: 80%;
+  }
+}
